@@ -13,3 +13,14 @@ let result = imitaMap(function(elemento){
 result;
 
 //elementos arrays en una function
+
+
+//2
+
+let numberArray = [1,2,3,4,5];
+
+let returnValue = numberArray.map
+((num) => num * num);
+
+console.log(numberArray);
+console.log(returnValue);

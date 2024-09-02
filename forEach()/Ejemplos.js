@@ -20,7 +20,7 @@ let returnValue =
 numberArray.forEach(num =>
     console.log(`${num} x ${num} = ${num * num}`));
 
-//console.log(numberArray);
+console.log(numberArray);
 console.log(returnValue);
 
     

@@ -1,5 +1,5 @@
 //No devuelve ningun error
-function imitarForEach(funct,elementos){
+/*function imitarForEach(funct,elementos){
     for(let i = 0; i < elementos.length; i++){
         funct(elementos[i]);
     }
@@ -21,6 +21,23 @@ numberArray.forEach(num =>
 console.log(`${num} x ${num} = ${num * num}`));
 
 console.log(numberArray);
-console.log(returnValue);
+console.log(returnValue);*/
+
+//3 convertir un bucle for en forEach
+
+const food = ["pizza","sandia","tacos"];
+const copyFoods = [];
+
+//antes
+for (let i = 0; i < food.length; i++){
+    copyFoods.push(food[i]);
+}
+
+//después
+food.forEach((foods) => {
+    copyFoods.push(foods);
+    console.log(foods);
+});
+
 
     

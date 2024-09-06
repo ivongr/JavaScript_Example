@@ -1,4 +1,4 @@
-/*function saludar(){
+function saludar(){
     return console.log("Hola");
 }
 
@@ -12,7 +12,7 @@ let x = "suki";
 console.log(typeof x);
 
 cars = {name:"nissan",year:21}
-console.log(typeof cars);*/
+console.log(typeof cars);
 
 /*let xs = null;
 console.log(typeof xs);
@@ -161,30 +161,6 @@ function sumar(a){
  let suma5 = sumar(5);
  console.log(suma5(2));
  console.log(suma5(7));
-
-//beves que se llama una función
-function countReplay(){
-    let count = 0;
-    return function(){
-        count++;
-        console.log(count);
-    }
-}
-const contar = contador();
-contar();
-contar();
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 let price =200;

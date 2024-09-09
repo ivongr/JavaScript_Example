@@ -13,14 +13,14 @@ class BankAccount {
     withdraw(amount) {
       if (amount <= this.balance) {
         this.balance -= amount;
-        console.log(`Monto a retirar$${amount}  ${this.accountNumber}.`);
+        console.log(`Monto a retirar $${amount}  ${this.accountNumber}.`);
       } else {
         console.log(`Insufientes fondos para retirar en el no.${this.accountNumber}.`);
       }
     }
   
     displayBalance() {
-      console.log(`Cuenta con el nombre${this.accountNumber} balanza: $${this.balance}`);
+      console.log(`Cuenta con el nombre${this.accountNumber} balanza: $${this.balance}.`);
     }
   }
   

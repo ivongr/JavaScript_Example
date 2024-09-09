@@ -13,7 +13,7 @@ class Rectangle {
         return this.height * this.width;
     }
 
-    *getSides(){ //detiene la ejecución
+    *getSides(){ //*detiene la ejecución
         yield this.height;
         yield this.width;
         yield this.height;

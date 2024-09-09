@@ -3,24 +3,13 @@ function saludar(){
 }
 
 saludar();
-console.log(typeof saludar);
 
-console.log(typeof 45)
-
-let x = "suki";
-
-console.log(typeof x);
 
 cars = {name:"nissan",year:21}
 console.log(typeof cars);
 
-/*let xs = null;
-console.log(typeof xs);
 
-let sumOne = Symbol("foolsuki")
-console.log(typeof sumOne);*/
-
-/*function myFunc(theObject){
+function myFunc(theObject){
     theObject.make = "Toyota";
 }
 
@@ -34,7 +23,7 @@ x = mycar.make;// x obtiene el valor "Holanda"
 myFunc(mycar);
 y = mycar.make; // y obtiene el valor "Toyota" 
 // (la propiedad make fue cambiada for la función)
-console.log(y);*/
+console.log(y);
 
 /*const square = function (number){
     return number * number; // x * x
@@ -50,9 +39,9 @@ function showMessage(){
 }
 //showMessage();
 
-function example(paramater1,parameter2,...parameterN){
+/**function example(paramater1,parameter2,...parameterN){
     //body
-}
+}*/
 
 /****************************** */
 /**variable local**/
@@ -171,3 +160,9 @@ alert( "El total son" + totalPrice);
 }
 
 //priceIva();
+
+
+
+
+
+

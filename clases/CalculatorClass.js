@@ -7,10 +7,10 @@ class CalculatorClass{
         console.log(`El valor de b es => ${this.b}`);
     }
 
-    constructor(){
-        this.a = 0;
-        this.b = 0;
-        console.log("Se genero la instancia de CalculatorClss")
+    constructor(a,b){
+        this.a = a;
+        this.b = b;
+        
     }
 }
 

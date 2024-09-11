@@ -1,9 +1,8 @@
 /*Importar el módulo a script */
 import { name, draw, reportArea,
 reportPerimeter } from "./Modules/square.js";
-
-
 import { create, createReportList } from "./Modules/canvas.js";
+
 let myCanvas = create("myCanvas", 
     document.body, 480, 320);
 let reportList = createReportList(myCanvas.id);

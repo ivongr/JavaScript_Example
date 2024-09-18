@@ -1,8 +1,9 @@
 import { initLogin } from "./initLogin.js"
 
-let button = document.getElementById("btn");
+let button = document.getElementById("login-form");
 
-button.addEventListener("click",function(){
+button.addEventListener("submit",function(event){
+    event.preventDefault(); 
  initLogin();
 })
 

@@ -27,7 +27,7 @@ function initLogin(){
       alert('¡Inicio de sesión exitoso!');
 
 }
-window.initLogin = initLogin;
+
 export {initLogin}
 
 

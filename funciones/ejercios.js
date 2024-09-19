@@ -27,6 +27,4 @@ function isPar(num){
 isPar(2);
 
 
-function sum
-
 

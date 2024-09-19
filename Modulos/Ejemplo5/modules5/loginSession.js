@@ -1,14 +1,13 @@
-import {listUser} from "./users.js";
-function loginSession(email,password){
-
-    const users = listUser();
+import {listUsers} from "./user.js";
+async function loginSession(email,password){
+try{
+    const users = await listUsers();
     let verify = !!users.find(element => element.email
         === email && element.password === password)
-        if (verify){
-            return true;
-        }else{
-            return false;
-        }
+        return verify;
+    } catch(error){
+        return false;
+    }
 
 }
 

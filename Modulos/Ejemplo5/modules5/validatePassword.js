@@ -1,3 +1,5 @@
+
+
 function validatePassword(password) {
 
     if (password.length >= 4 && password.length <= 16) {

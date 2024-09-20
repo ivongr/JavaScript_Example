@@ -1,20 +1,16 @@
 function createcounter(initialCount = 0) {
-    let count = initialCount;
-
     return {
-        getCounter: function () {
-            return count;
+        count : initialCount,
+        getCounter() {
+            return this.count;
         },
-        increment: function () {
-            count += 1;
-            return count;
+        increment() {
+            return  this.count += 1;
         },
-        decrease: function () {
-            count -= 1;
-            return count;
+        decrease() { 
+            return this.count -= 1;
         },
     };
-
 }
 
 const num = createcounter();
